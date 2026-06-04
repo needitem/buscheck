@@ -1,0 +1,6 @@
+token.txt
+state.json
+buscheck.log
+buscheck.pid
+__pycache__/
+*.pyc
