@@ -1,0 +1,16 @@
+{
+  "poll_sec": 30,
+  "watches": [
+    {
+      "name": "안동 16:43 KTX-이음 714",
+      "provider": "korail",
+      "dep": "안동",
+      "arr": ["청량리", "서울"],
+      "date": "20260802",
+      "start": "16:30",
+      "end": "16:50",
+      "train_type": "all",
+      "seat_class": "any"
+    }
+  ]
+}

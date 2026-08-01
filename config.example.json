@@ -1,0 +1,35 @@
+{
+  "poll_sec": 30,
+
+  "watches": [
+    {
+      "name": "안동 → 청량리/서울 KTX",
+      "provider": "korail",
+      "dep": "안동",
+      "arr": ["청량리", "서울"],
+      "date": "20260802",
+      "start": "16:30",
+      "end": "16:50",
+
+      "train_type": "all",
+      "seat_class": "any",
+      "poll_sec": 30,
+      "enabled": true
+    },
+
+    {
+      "name": "서울경부 → 대전청사 고속버스",
+      "provider": "kobus",
+      "dep": "서울경부",
+      "arr": "대전청사",
+      "date": "20260605",
+      "start": "16:00",
+      "end": "17:30",
+
+      "bus_class": "0",
+      "premium_discount": false,
+      "poll_sec": 30,
+      "enabled": false
+    }
+  ]
+}
